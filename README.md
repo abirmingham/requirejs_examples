@@ -2,6 +2,8 @@ requirejs_examples
 ==================
 
 
+Note that actual app functionality has been removed.
+
 ```
 npm install
 node_modules/.bin/smash examples/withoutRequire/js/main.js > examples/withoutRequire/build/main.js
