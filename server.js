@@ -2,4 +2,4 @@ var connect = require('connect');
 
 connect.createServer(
     connect.static(__dirname)
-).listen(process.env.PORT, process.env.IP);
+).listen('8080', '127.0.0.1');

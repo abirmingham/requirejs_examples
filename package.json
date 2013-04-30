@@ -1,0 +1,8 @@
+{
+  "name": "requirejs_examples",
+  "version": "1.0.0",
+  "dependencies": {
+    "connect": "2.7.x"
+  },
+  "engine": "node >= 0.6.12"
+}
