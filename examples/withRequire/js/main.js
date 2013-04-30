@@ -7,6 +7,7 @@ requirejs.config({
 });
 
 require(['jquery', 'views/app'], function($, AppView) {
+
     $(function() {
         new AppView();
     });
