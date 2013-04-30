@@ -1,8 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <script data-main="js/main" src="http://requirejs.org/docs/release/2.1.5/comments/require.js"></script>
-
     <link rel="stylesheet" href="../../assets/base.css">
 </head>
 
@@ -29,5 +27,19 @@
         <p>Double-click to edit a todo</p>
         <p>Modelled after <a href="http://todomvc.com">TodoMVC</a></p>
     </footer>
+
+    <!-- Vendor -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="../../../assets/underscore.amd.js"></script>
+    <script src="../../../assets/backbone.amd.js"></script>
+
+    <!-- App -->
+    <script>var App = {}</script>
+    <script src="js/models/todo.js"></script>
+    <script src="js/collections/todoList.js"></script>
+    <script src="js/views/todoList.js"></script>
+    <script src="js/views/global.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
