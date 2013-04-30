@@ -1,3 +1,5 @@
+import "../views/todoList"
+
 App = App || {};
 App.Views = App.Views || {};
 

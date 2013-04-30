@@ -1,3 +1,5 @@
+import "../models/todo"
+
 App = App || {};
 App.Collections = App.Collections || {};
 

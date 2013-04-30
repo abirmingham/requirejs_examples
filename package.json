@@ -2,7 +2,8 @@
   "name": "requirejs_examples",
   "version": "1.0.0",
   "dependencies": {
-    "connect": "2.7.x"
+    "connect": "2.7.x",
+    "smash":   "0.0.11"
   },
   "engine": "node >= 0.6.12"
 }
